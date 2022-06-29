@@ -1,0 +1,19 @@
+/**
+ * DRIVER - Lab measuring balance
+ *
+ * Labforward Co.
+ *
+ * @author Gonzalo Marín Cuesta
+ */
+ 
+## Usage
+
+To start the application run: npm run dev
+
+The application authomatically starts reporting the current weight that it's been measured each 5s. It can be turned off from the device, in this time it will not measure nothing at all.
+
+When it receives a command of starting a certain measure, it keeps all the measures from that time on until it's said to stop measuring. All this measures are used to get an average measure.
+
+# Developing time
+
+The approximated dedicated time to this application was 1.5h. It was conceived as a production ready sample application. It allows many more functionalities to be added to the basic performance that it provides.
